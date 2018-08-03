@@ -117,7 +117,7 @@ def get_training_dataset():
     '''
 
     input_vecs = np.array([[1,1],[0,0],[1,0],[0,1]], dtype=float)
-    labels = np.array([1,0,0,0], dtype=float)
+    labels = np.array([1,1,0,0], dtype=float)
     return input_vecs, labels
 
 
